@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;800&family=Sulphur+Point:wght@400;700&display=swap');
+
+* {
+    font-family: 'Sulphur Point', sans-serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F2F1EF;
+    color: #413F3D;
+}
+
+.flexbox-item1 {
+    display: flex;
+    font-size: 2.5em;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo {
+    font-weight: 1000;
+    position: absolute;
+    left: 10px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: #F2F1EF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 5px 5px rgb(0, 0, 0, 0.4);
+    font-size: 2em;
+}
+
+.page1 {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    max-width: 1700px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 6em;
+
+
+}
+
+#textHome {
+    font-size: 2em;
+}
+
+h3 {
+    padding: 1em;
+    color: #413F3D;
+    letter-spacing: 3px;
+}
+
+a {
+    color: #413F3D;
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+    display: flex;
+    padding: 1em;
+    margin: 0;
+}
+
+li {
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    margin: 0.5em;
+    padding: 10px 15px;
+    color: #F2F1EF;
+    border-radius: 20px;
+}
+
+li:hover {
+    background-color: #F2F1EF;
+    box-shadow: 3px 5px 7px;
+}
+
+#rugby {
+    margin-left: 8%;
+    margin-top: 2%;
+    border-radius: 15px;
+    width: 800px;
+    height: 950px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+#abouth1{
+    margin-bottom: 0;
+}
+.about {
+    display: flex;
+    color: #413F3D;
+    font-size: 1.3em;
+
+
+}
+
+.line {
+    background-color: #413F3D;
+    height: 5px;
+    width: 100px;
+    border-radius: 25px;
+}
+
+.text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.text h1 {
+    margin-top: 7%;
+    font-size: 3em;
+}
+
+
+#homePage {
+    display: flex;
+    flex-direction: row;
+
+    margin: 200px;
+    gap: 600px;
+
+}
+
+#pf {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    width: 700px;
+    height: 750px;
+    border-radius: 15px;
+}
+
+/*Work and School Page*/
+#school\/work\ page h1 {
+    margin-top: 7%;
+    margin-left: 3%;
+    font-size: 3em;
+}
+
+#school\/work\ page {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    justify-content: space-between;
+}
+.linework {
+    position: absolute;
+    top: 55%;
+    left: 3%;
+    transform: translate(-50%, -50%) rotate(90deg); /* Rotate the line 30 degrees */
+    background-color: #413F3D;
+    height: 5px;
+    width: 950px;
+    border-radius: 25px;
+}
+.linework2 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg); /* Rotate the line 30 degrees */
+    background-color: #413F3D;
+    height: 5px;
+    width: 950px;
+    border-radius: 25px;
+}
+
+.textwork {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    width: 50%;
+    margin-left: 3%;
+}
+
+.textschool {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    width: 50%;
+    margin-left: 2%;
+}
+
+.pol {
+    justify-content: right;
+    align-items: flex-start;
+    padding: 5px;
+    width: 350px;
+
+}
+
+#Sintlucas {
+    padding: 5px;
+    width: 450px;
+
+}
+
+/*PROJECTS PAGE*/
+#Projectsh1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1720px;
+    max-height: 537px;
+    margin-left: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    font-size: 24px;
+}
+
+.project-description {
+    font-size: 16px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.projectphotos {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/*Skills Page*/
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.skill {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-name {
+    font-weight: bold;
+    font-size: 20px;
+    color: #555;
+    padding: 10px;
+}
+
+.skill-progress {
+    background-color: #f2f2f2;
+    height: 20px;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 5px;
+    text-align: right;
+    padding: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+.pictures {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 343px;
+}
+
+.pictures img {
+    width: 450px;
+    height: auto;
+}
