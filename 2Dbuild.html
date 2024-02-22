@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <body>3
+  <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
@@ -18,6 +18,7 @@
       </div>
       <div id="unity-warning"> </div>
       <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">2DGame</div>
       </div>
@@ -56,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Jaar2.loader.js";
+      var loaderUrl = buildUrl + "/Portfolio.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Jaar2.data.br",
-        frameworkUrl: buildUrl + "/Jaar2.framework.js.br",
-        codeUrl: buildUrl + "/Jaar2.wasm.br",
+        dataUrl: buildUrl + "/Portfolio.data.br",
+        frameworkUrl: buildUrl + "/Portfolio.framework.js.br",
+        codeUrl: buildUrl + "/Portfolio.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "2DGame",
