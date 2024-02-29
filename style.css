@@ -195,7 +195,7 @@ li:hover {
 
 .textwork {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-size: 1.5em;
     width: 50%;
     margin-left: 3%;
@@ -208,13 +208,22 @@ li:hover {
     width: 50%;
     margin-left: 2%;
 }
-
+.wordswork{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
 .pol {
     justify-content: right;
     align-items: flex-start;
     padding: 5px;
     width: 350px;
 
+}
+
+.pol-img{
+    height: 200px;
+    width: fit-content;
 }
 
 #Sintlucas {
