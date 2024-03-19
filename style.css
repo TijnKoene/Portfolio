@@ -2,7 +2,6 @@
 
 * {
     font-family: 'Sulphur Point', sans-serif;
-
 }
 
 body {
@@ -55,8 +54,6 @@ html, body {
 
 h1 {
     font-size: 6em;
-
-
 }
 
 #textHome {
@@ -116,8 +113,6 @@ li:hover {
     display: flex;
     color: #413F3D;
     font-size: 1.3em;
-
-
 }
 
 .line {
@@ -140,14 +135,11 @@ li:hover {
     font-size: 3em;
 }
 
-
 #homePage {
     display: flex;
     flex-direction: row;
-
     margin: 200px;
     gap: 600px;
-
 }
 
 #pf {
@@ -172,21 +164,23 @@ li:hover {
     margin-top: 0;
     justify-content: space-between;
 }
+
 .linework {
     position: absolute;
     top: 55%;
     left: 3%;
-    transform: translate(-50%, -50%) rotate(90deg); /* Rotate the line 30 degrees */
+    transform: translate(-50%, -50%) rotate(90deg);
     background-color: #413F3D;
     height: 5px;
     width: 950px;
     border-radius: 25px;
 }
+
 .linework2 {
     position: absolute;
     top: 55%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(90deg); /* Rotate the line 30 degrees */
+    transform: translate(-50%, -50%) rotate(90deg);
     background-color: #413F3D;
     height: 5px;
     width: 950px;
@@ -208,20 +202,22 @@ li:hover {
     width: 50%;
     margin-left: 2%;
 }
-.wordswork{
+
+.wordswork {
     display: flex;
     flex-direction: column;
     width: 90%;
+    margin-left: 50px; /* Adjust margin as needed */
 }
+
 .pol {
-    justify-content: right;
+    justify-content: flex-end;
     align-items: flex-start;
     padding: 5px;
     width: 350px;
-
 }
 
-.pol-img{
+.pol-img {
     height: 200px;
     width: fit-content;
 }
@@ -229,7 +225,8 @@ li:hover {
 #Sintlucas {
     padding: 5px;
     width: 450px;
-
+    align-self: flex-end;
+    margin-top: 50px; /* Adjust margin as needed */
 }
 
 /*PROJECTS PAGE*/
@@ -238,45 +235,55 @@ li:hover {
     justify-content: center;
     align-items: center;
 }
-.project-container {
+.projects_display{
     display: flex;
-    justify-content: space-around;
-    max-width: 1720px;
-    max-height: 537px;
-    margin-left: 300px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    margin-top: 100px;
+}
+.projectRow_con{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 65px;
+    margin-bottom: 250px;
 }
 
-.project {
-    flex: 1;
-    margin: 10px;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.project_con {
+    position: relative;
+    max-width: 560px;
 }
 
-.project-title {
-    font-size: 24px;
-}
-
-.project-description {
-    font-size: 16px;
-}
-
-.project-link {
-    text-decoration: none;
-    color: #007bff;
-}
-
-.projectphotos {
-    max-width: 100%;
+.project_con img {
     height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    width: 547px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.project_con .project_conText {
+    position: absolute;
+    bottom: 6px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 18px;
+    font-size: 15px;
+    width: 509px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.project_conText h1{
+    font-size: 30px;
+}
+
+
+
+
+.projectCon {
+    position: relative;
+    top: 65px;
 }
 
 /*Skills Page*/
@@ -326,6 +333,7 @@ header h1 {
     color: #fff;
     font-weight: bold;
 }
+
 .pictures {
     display: flex;
     justify-content: space-around;
