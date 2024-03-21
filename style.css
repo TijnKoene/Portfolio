@@ -53,7 +53,7 @@ html, body {
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 4em;
 }
 
 #textHome {
@@ -96,8 +96,8 @@ li:hover {
     margin-left: 8%;
     margin-top: 2%;
     border-radius: 15px;
-    width: 800px;
-    height: 950px;
+    width: 732px;
+    height: 763px;
 }
 
 .content {
@@ -112,14 +112,14 @@ li:hover {
 .about {
     display: flex;
     color: #413F3D;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .line {
     background-color: #413F3D;
-    height: 5px;
-    width: 100px;
-    border-radius: 25px;
+    height: 0.5%;
+    width: 20%;
+    border-radius: 2%;
 }
 
 .text {
@@ -138,17 +138,17 @@ li:hover {
 #homePage {
     display: flex;
     flex-direction: row;
-    margin: 200px;
-    gap: 600px;
+    margin: 6%;
+    gap: 22%;
 }
 
 #pf {
     display: flex;
     align-items: center;
     align-content: space-around;
-    width: 700px;
-    height: 750px;
-    border-radius: 15px;
+    width: 109%;
+    height: auto;
+    border-radius: 3%;
 }
 
 /*Work and School Page*/
@@ -343,73 +343,4 @@ header h1 {
 .pictures img {
     width: 450px;
     height: auto;
-}
-/* Base styles */
-/* Your existing CSS code here */
-
-/* Media queries for responsiveness */
-@media only screen and (max-width: 1200px) {
-    /* Adjustments for smaller screens */
-    .container {
-        height: 15vh; /* Adjust height as needed */
-    }
-
-    .flexbox-item1 {
-        font-size: 2em; /* Adjust font size as needed */
-    }
-
-    h1 {
-        font-size: 4em; /* Adjust font size as needed */
-    }
-
-    #rugby {
-        width: 100%; /* Full width on smaller screens */
-        height: auto; /* Auto height for responsiveness */
-        border-radius: 0; /* No border radius */
-    }
-
-    .content {
-        flex-direction: column; /* Stack content vertically on smaller screens */
-        gap: 3%; /* Reduce gap between items */
-    }
-
-    .text h1 {
-        font-size: 2.5em; /* Adjust font size as needed */
-    }
-
-    /* Adjustments for other elements as needed */
-}
-
-@media only screen and (max-width: 768px) {
-    /* Adjustments for even smaller screens (tablets, mobile landscape) */
-    .container {
-        height: 20vh; /* Adjust height as needed */
-    }
-
-    .flexbox-item1 {
-        font-size: 1.5em; /* Adjust font size as needed */
-    }
-
-    h1 {
-        font-size: 3em; /* Adjust font size as needed */
-    }
-
-    /* Add more adjustments for smaller screens */
-}
-
-@media only screen and (max-width: 480px) {
-    /* Adjustments for small screens (mobile portrait) */
-    .container {
-        height: 25vh; /* Adjust height as needed */
-    }
-
-    .flexbox-item1 {
-        font-size: 1.2em; /* Adjust font size as needed */
-    }
-
-    h1 {
-        font-size: 2.5em; /* Adjust font size as needed */
-    }
-
-    /* Add more adjustments for smaller screens */
 }
