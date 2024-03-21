@@ -171,8 +171,8 @@ li:hover {
     left: 3%;
     transform: translate(-50%, -50%) rotate(90deg);
     background-color: #413F3D;
-    height: 5px;
-    width: 950px;
+    height: 0.5%;
+    width: 39%;
     border-radius: 25px;
 }
 
@@ -182,8 +182,8 @@ li:hover {
     left: 50%;
     transform: translate(-50%, -50%) rotate(90deg);
     background-color: #413F3D;
-    height: 5px;
-    width: 950px;
+    height: 0.5%;
+    width: 39%;S
     border-radius: 25px;
 }
 
@@ -226,7 +226,9 @@ li:hover {
     padding: 5px;
     width: 450px;
     align-self: flex-end;
-    margin-top: 50px; /* Adjust margin as needed */
+
+    margin-top: -54%;
+    margin-right: 9%;
 }
 
 /*PROJECTS PAGE*/
