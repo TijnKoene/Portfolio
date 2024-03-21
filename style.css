@@ -34,7 +34,7 @@ html, body {
     position: relative;
     margin: auto;
     padding: 0;
-    width: 100vw;
+    width: 100%;
     height: 10vh;
     background-color: #F2F1EF;
     display: flex;
@@ -343,4 +343,73 @@ header h1 {
 .pictures img {
     width: 450px;
     height: auto;
+}
+/* Base styles */
+/* Your existing CSS code here */
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 1200px) {
+    /* Adjustments for smaller screens */
+    .container {
+        height: 15vh; /* Adjust height as needed */
+    }
+
+    .flexbox-item1 {
+        font-size: 2em; /* Adjust font size as needed */
+    }
+
+    h1 {
+        font-size: 4em; /* Adjust font size as needed */
+    }
+
+    #rugby {
+        width: 100%; /* Full width on smaller screens */
+        height: auto; /* Auto height for responsiveness */
+        border-radius: 0; /* No border radius */
+    }
+
+    .content {
+        flex-direction: column; /* Stack content vertically on smaller screens */
+        gap: 3%; /* Reduce gap between items */
+    }
+
+    .text h1 {
+        font-size: 2.5em; /* Adjust font size as needed */
+    }
+
+    /* Adjustments for other elements as needed */
+}
+
+@media only screen and (max-width: 768px) {
+    /* Adjustments for even smaller screens (tablets, mobile landscape) */
+    .container {
+        height: 20vh; /* Adjust height as needed */
+    }
+
+    .flexbox-item1 {
+        font-size: 1.5em; /* Adjust font size as needed */
+    }
+
+    h1 {
+        font-size: 3em; /* Adjust font size as needed */
+    }
+
+    /* Add more adjustments for smaller screens */
+}
+
+@media only screen and (max-width: 480px) {
+    /* Adjustments for small screens (mobile portrait) */
+    .container {
+        height: 25vh; /* Adjust height as needed */
+    }
+
+    .flexbox-item1 {
+        font-size: 1.2em; /* Adjust font size as needed */
+    }
+
+    h1 {
+        font-size: 2.5em; /* Adjust font size as needed */
+    }
+
+    /* Add more adjustments for smaller screens */
 }
