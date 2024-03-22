@@ -257,8 +257,8 @@ li:hover {
 }
 
 .project_con img {
-    height: auto;
-    width: 547px;
+    height: 98%;
+    width: 98%;
     border-radius: 15px;
     object-fit: cover;
 }
@@ -267,9 +267,9 @@ li:hover {
     position: absolute;
     bottom: 6px;
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 78%);
     color: #f1f1f1;
-    padding: 18px;
+    padding: 3.5%;
     font-size: 15px;
     width: 509px;
     border-bottom-left-radius: 15px;
