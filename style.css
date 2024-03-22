@@ -183,7 +183,7 @@ li:hover {
     transform: translate(-50%, -50%) rotate(90deg);
     background-color: #413F3D;
     height: 0.5%;
-    width: 39%;S
+    width: 39%;
     border-radius: 25px;
 }
 
@@ -218,15 +218,15 @@ li:hover {
 }
 
 .pol-img {
-    height: 200px;
+    height: 177px;
     width: fit-content;
+    margin-top: 14%;
 }
 
 #Sintlucas {
-    padding: 5px;
-    width: 450px;
+    padding: 1%;
+    width: 42%;
     align-self: flex-end;
-
     margin-top: -54%;
     margin-right: 9%;
 }
@@ -345,4 +345,16 @@ header h1 {
 .pictures img {
     width: 450px;
     height: auto;
+}
+/*LEARN MORE SWAMP*/
+.swampsuffle{
+    /*display: flex;*/
+}
+.swampscuffleH1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.theassignment{
+    font-size: 1.5em;
 }
