@@ -361,4 +361,5 @@ header h1 {
     width: 28%;
     align-items: flex-start;
     flex-direction: column;
+    margin-left: 3%;
 }
