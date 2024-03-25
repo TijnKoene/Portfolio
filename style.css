@@ -207,7 +207,7 @@ li:hover {
     display: flex;
     flex-direction: column;
     width: 90%;
-    margin-left: 50px; /* Adjust margin as needed */
+    margin-left: 50px;
 }
 
 .pol {
@@ -362,4 +362,12 @@ header h1 {
     align-items: flex-start;
     flex-direction: column;
     margin-left: 3%;
+}
+.SSGame{
+    display: flex;
+    height: auto;
+    width: 29%;
+    border-radius: 15px;
+    justify-content: center;
+
 }
